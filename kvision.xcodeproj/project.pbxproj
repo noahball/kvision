@@ -7,18 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F7B73B22A415B6300A8018A /* TimetabledClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7B73B12A415B6300A8018A /* TimetabledClass.swift */; };
+		4F7B73B42A4173FE00A8018A /* NoticeCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7B73B32A4173FE00A8018A /* NoticeCardView.swift */; };
+		4F7B73B62A41770400A8018A /* Notice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7B73B52A41770400A8018A /* Notice.swift */; };
+		4FE47E582A414EF40041E4D2 /* TimetableCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE47E572A414EF40041E4D2 /* TimetableCardView.swift */; };
+		4FE47E5A2A4152830041E4D2 /* IconLabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE47E592A4152830041E4D2 /* IconLabelStyle.swift */; };
 		4FF8E9632A413FB0005E1428 /* kvisionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF8E9622A413FB0005E1428 /* kvisionApp.swift */; };
 		4FF8E9652A413FB0005E1428 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF8E9642A413FB0005E1428 /* ContentView.swift */; };
 		4FF8E9672A413FB0005E1428 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FF8E9662A413FB0005E1428 /* Assets.xcassets */; };
 		4FF8E96A2A413FB0005E1428 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FF8E9692A413FB0005E1428 /* Preview Assets.xcassets */; };
+		4FF8E9732A41423F005E1428 /* TimetableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF8E9722A41423F005E1428 /* TimetableView.swift */; };
+		4FF8E9752A414285005E1428 /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF8E9742A414285005E1428 /* DetailsView.swift */; };
+		4FF8E9772A4142F7005E1428 /* NoticesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF8E9762A4142F7005E1428 /* NoticesView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4F7B73B12A415B6300A8018A /* TimetabledClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimetabledClass.swift; sourceTree = "<group>"; };
+		4F7B73B32A4173FE00A8018A /* NoticeCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoticeCardView.swift; sourceTree = "<group>"; };
+		4F7B73B52A41770400A8018A /* Notice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notice.swift; sourceTree = "<group>"; };
+		4FE47E572A414EF40041E4D2 /* TimetableCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimetableCardView.swift; sourceTree = "<group>"; };
+		4FE47E592A4152830041E4D2 /* IconLabelStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconLabelStyle.swift; sourceTree = "<group>"; };
 		4FF8E95F2A413FB0005E1428 /* kvision.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kvision.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FF8E9622A413FB0005E1428 /* kvisionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kvisionApp.swift; sourceTree = "<group>"; };
 		4FF8E9642A413FB0005E1428 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4FF8E9662A413FB0005E1428 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4FF8E9692A413FB0005E1428 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4FF8E9722A41423F005E1428 /* TimetableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimetableView.swift; sourceTree = "<group>"; };
+		4FF8E9742A414285005E1428 /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
+		4FF8E9762A4142F7005E1428 /* NoticesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoticesView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +48,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4F7B73AE2A415AE200A8018A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4F7B73B12A415B6300A8018A /* TimetabledClass.swift */,
+				4F7B73B52A41770400A8018A /* Notice.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4FE47E532A414E8C0041E4D2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4FF8E9722A41423F005E1428 /* TimetableView.swift */,
+				4FF8E9762A4142F7005E1428 /* NoticesView.swift */,
+				4FF8E9742A414285005E1428 /* DetailsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4FE47E542A414E9E0041E4D2 /* Elements */ = {
+			isa = PBXGroup;
+			children = (
+				4FE47E572A414EF40041E4D2 /* TimetableCardView.swift */,
+				4FE47E592A4152830041E4D2 /* IconLabelStyle.swift */,
+				4F7B73B32A4173FE00A8018A /* NoticeCardView.swift */,
+			);
+			path = Elements;
+			sourceTree = "<group>";
+		};
 		4FF8E9562A413FB0005E1428 = {
 			isa = PBXGroup;
 			children = (
@@ -54,7 +99,10 @@
 				4FF8E9622A413FB0005E1428 /* kvisionApp.swift */,
 				4FF8E9642A413FB0005E1428 /* ContentView.swift */,
 				4FF8E9662A413FB0005E1428 /* Assets.xcassets */,
+				4F7B73AE2A415AE200A8018A /* Models */,
 				4FF8E9682A413FB0005E1428 /* Preview Content */,
+				4FE47E542A414E9E0041E4D2 /* Elements */,
+				4FE47E532A414E8C0041E4D2 /* Views */,
 			);
 			path = kvision;
 			sourceTree = "<group>";
@@ -137,8 +185,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4FF8E9732A41423F005E1428 /* TimetableView.swift in Sources */,
+				4F7B73B22A415B6300A8018A /* TimetabledClass.swift in Sources */,
+				4FF8E9752A414285005E1428 /* DetailsView.swift in Sources */,
 				4FF8E9652A413FB0005E1428 /* ContentView.swift in Sources */,
+				4FF8E9772A4142F7005E1428 /* NoticesView.swift in Sources */,
+				4F7B73B62A41770400A8018A /* Notice.swift in Sources */,
+				4FE47E582A414EF40041E4D2 /* TimetableCardView.swift in Sources */,
 				4FF8E9632A413FB0005E1428 /* kvisionApp.swift in Sources */,
+				4FE47E5A2A4152830041E4D2 /* IconLabelStyle.swift in Sources */,
+				4F7B73B42A4173FE00A8018A /* NoticeCardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +326,8 @@
 				DEVELOPMENT_TEAM = YD3GTDDSL5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = KVision;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +357,8 @@
 				DEVELOPMENT_TEAM = YD3GTDDSL5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = KVision;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
